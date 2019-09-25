@@ -1,0 +1,47 @@
+/*
+
+Project Name: Cats
+Client: Anyone who likes cats
+Author: Zoya Butenko
+
+*/
+
+body {
+	background: url('background.jpg');
+	/* the follow is the code to have the image display as a full page */
+	background-position: center;
+	background-attachment: fixed;
+	-webkit-background-size: cover; /* the next 3 lines are "browser prefixes", they are necessary to include for CSS3 techniques */
+	-moz-background-size: cover;
+	-o-background-size: cover;
+	background-size: cover;
+	font-family: 'Open Sans Condensed', sans-serif;
+}
+#container {
+	background-color: #ffe5b3;
+	color: black;
+	width: 500px;
+	padding: 10px;
+	margin: 0 auto;
+}
+h1 {
+	font-size: 40px;
+	margin: 10px;
+}
+h2 {
+	background: #873324;
+	color: white;
+	padding-left: 7px;
+	padding-right: 7px;
+	padding-top: 3px;
+	padding-bottom: 3px;
+	border-radius: 5px;
+	font-size: 25px;
+}
+a {
+	color: #873324;
+	text-decoration: none;
+}
+p {
+	font-size:20px;
+}
